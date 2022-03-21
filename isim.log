@@ -1,0 +1,16 @@
+ISim log file
+Running: C:\project\multiplier\MUL_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/PROJECT/multiplier/MUL_test_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/project/multiplier/MUL_datapath.v" Line 25.  For instance DP/B/, width 1 of formal port ld is not equal to width 16 of actual signal bus.
+WARNING: File "C:/project/multiplier/MUL_datapath.v" Line 22.  For instance DP/B/, width 16 of formal port dout is not equal to width 1 of actual signal clk.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0    x x
+Stopped at time : 503 ns : File "C:/project/multiplier/MUL_test.v" Line 35
+# run all
+Stopped at time : 1991702667 ns : File "C:/project/multiplier/controller.v" Line 32

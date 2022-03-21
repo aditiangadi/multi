@@ -1,0 +1,31 @@
+Running: D:\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/project/multiplier/MUL_test_isim_beh.exe -prj C:/project/multiplier/MUL_test_beh.prj work.MUL_test work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/project/multiplier/PIPO2.v" into library work
+Analyzing Verilog file "C:/project/multiplier/PIPO1.v" into library work
+Analyzing Verilog file "C:/project/multiplier/COMP.v" into library work
+Analyzing Verilog file "C:/project/multiplier/CNTR.v" into library work
+Analyzing Verilog file "C:/project/multiplier/ADD.v" into library work
+Analyzing Verilog file "C:/project/multiplier/MUL_datapath.v" into library work
+Analyzing Verilog file "C:/project/multiplier/controller.v" into library work
+Analyzing Verilog file "C:/project/multiplier/MUL_test.v" into library work
+Analyzing Verilog file "D:/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/project/multiplier/MUL_datapath.v" Line 29: Size mismatch in connection of port <ld>. Formal port size is 1-bit while actual signal size is 16-bit.
+Completed static elaboration
+Compiling module PIPO1
+Compiling module PIPO2
+Compiling module CNTR
+Compiling module ADD
+Compiling module EQZ
+Compiling module MUL_datapath
+Compiling module controller
+Compiling module MUL_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 9 Verilog Units
+Built simulation executable C:/project/multiplier/MUL_test_isim_beh.exe
+Fuse Memory Usage: 29064 KB
+Fuse CPU Usage: 374 ms
